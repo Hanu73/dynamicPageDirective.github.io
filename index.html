@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+      <script src="angular.min.js"></script>
+      <script src="app.js"></script>
+      <title>pagination module</title>
+   </head>
+   <body ng-app="userApp">
+      <div class="container" ng-controller="userController">
+<div class="row">
+    <div class="col-md-12" style="text-align:center">
+        
+select Page :
+
+         <select ng-model="pageName">
+            <option ng-repeat="page in pageNames" ng-bind="page">{{page}}</option>
+         </select>
+
+    </div>
+    
+</div>
+
+
+
+        
+            <pagination   items="items" page="pageName" ></pagination>
+       
+      </div>
+   </body>
+</html>

@@ -1,0 +1,121 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.flexbox-container {
+  display: flex;
+}
+
+.fill {
+  flex: 1;
+}
+
+.fillx2 {
+  flex: 2;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.flex-item {
+height:30px;
+  padding: 5px;
+  margin: 5px;
+  line-height: 20px;
+  text-align: center;
+  border: 2px solid #D9D9D9;
+
+overflow: hidden;
+  white-space: nowrap;
+  text-overflow: scroll;
+}
+.shorthand { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.longhand { 
+  -webkit-flex-flow: wrap row;
+  flex-flow: wrap row;
+  
+}
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.row {
+  width: 100%;
+  flex-wrap: wrap;
+flex-flow: row;
+
+}
+
+.cursorStyle {
+  cursor: pointer;
+}
+
+.reasonTranscribing {
+  width: 100%;
+  height: 76px;
+}
+
+.addInterval
+{
+height: 40px;
+color: green; 
+font-size: 20px; 
+font-weight: 400;
+margin-left: 15%;
+text-decoration: underline;
+}
+.flexbox-container .left { float: left; }
+.flexbox-container .center { margin: 0 auto; }
+.flexbox-container .right { float: right; }
+#main {
+
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main div {
+    width: 43px;
+    height: 20px;
+
+}
+
+#openingTimings
+{
+
+background-color:#CFE2F3;
+}
+
+#openingHours
+{
+
+border: 2px solid #c9daf8; 
+margin-left: 10px
+height:100%;
+over-flow:scroll;
+};
+
